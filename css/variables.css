@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Graphik', sans-serif;
+  box-sizing: border-box; }
+
+body {
+  background: linear-gradient(135deg, #4203a9, #90bafc); }
+
+.container {
+  background-color: yellow;
+  display: flex; }
+
+/* .logo-container{
+    
+
+} */
+.logo-container a img {
+  width: 80px;
+  padding: 12px 0px 8px 40px; }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+.logo-container a img:hover {
+  animation: rotation 2s alternate; }
+
+ul {
+  /* width: 60%; */
+  margin-left: 20%;
+  display: flex;
+  /* margin: 0px 45px; */
+  padding: 0px 35px;
+  align-items: center;
+  list-style: none; }
+
+ul li {
+  margin: 0px 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  padding: 25px 6px; }
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black; }
+
+ul li:hover {
+  background-color: yellow; }
+
+.btn {
+  width: 300px;
+  height: 40px;
+  margin: 5% 0 0 7%;
+  padding: 12px;
+  background-color: yellow;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+  transition: width 2s, height 4s;
+  transition: transform 0.3s ease; }
+
+.btn:hover {
+  transform: scale(1.1); }
+
+.btn a {
+  text-decoration: none; }
+
+.section {
+  display: flex; }
+
+.section-1 {
+  margin: 16% 0  0 12%;
+  padding: 10px; }
+
+.section-1 h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 400; }
+
+.section-1 h1 span {
+  color: yellow;
+  font-size: 35px;
+  font-weight: 400; }
+
+.section-1 p {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 22px; }
+
+/* .section-1 img{
+   width: 400px;
+   padding: 10px;
+   margin-bottom: -90px;
+} */
+/* .section-2{
+   margin: 0 0 15% 0;
+   padding: 0px 10px;
+} */
+.section-2 img {
+  width: 600px;
+  align-items: center;
+  padding: 0px 20px;
+  margin: 0 0 0 40%; }
+
+.animate__animated.animate__slideInRight {
+  animation-duration: 2s; }
+
+.animate__animated.animate__slideInDown {
+  animation-duration: 1.5s; }
+
+.btn-container {
+  display: flex; }
+
+.btn-1 {
+  margin: 40px 0 0 0;
+  padding: 12px 15px; }
+
+.btn-1 a {
+  text-decoration: none; }
+
+.btn-2 {
+  margin: 40px 0 0 20px;
+  padding: 12px 15px;
+  background: none;
+  border-radius: 7px;
+  border: 1px solid white; }
+
+.btn-2 a {
+  text-decoration: none;
+  color: white; }
+
+@media only screen and (max-width: 600px) {
+  .section {
+    display: block; } }
+.section-3 {
+  align-items: center;
+  text-align: center; }
+
+.ser-container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: 0px auto; }
+
+.section-3 {
+  margin-top: 100px; }
+
+.section-3 h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  margin-bottom: 70px;
+  color: yellow;
+  text-decoration: underline; }
+
+.service {
+  text-align: center;
+  /* align-items: center; */
+  margin: 20px;
+  background-color: #6d67d7;
+  padding: 30px 20px;
+  cursor: pointer;
+  border: 0.3px solid black;
+  border-radius: 5px; }
+
+.service i {
+  font-size: 45px;
+  color: white; }
+
+.service h2 {
+  margin: 20px 0 10px 0;
+  color: yellow; }
+
+.service p {
+  color: white;
+  font-size: 16px;
+  line-height: 1.4; }
+
+/*# sourceMappingURL=variables.css.map */
